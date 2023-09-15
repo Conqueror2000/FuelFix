@@ -1,0 +1,76 @@
+/* LoginForm.css */
+
+/* Styling for the login form container */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for form elements */
+.login-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.login-input {
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Styling for the login button */
+.login-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for radio buttons container */
+.user-type {
+  display: flex;
+  justify-content: space-evenly; /* Space between the radio buttons */
+  margin-top: 10px;
+}
+
+/* Styling for radio buttons */
+.radio-label {
+  display: flex;
+  align-items: center; /* Vertically center radio buttons within the line */
+}
+
+.radio-label input[type="radio"] {
+  margin-right: 10px; /* Add a 10px gap between radio buttons */
+}
+
+/* Style the selected radio button */
+.radio-label input[type="radio"]:checked + span {
+  font-weight: bold;
+}
+
+/* Style the radio button label text */
+.radio-label span {
+  font-weight: normal;
+}
+
+/* Responsive styling for radio buttons */
+@media (max-width: 768px) {
+  .user-type {
+    flex-direction: column; /* Stack radio buttons vertically on smaller screens */
+  }
+}
+
+.register-text {
+  color: #007bff; /* Link color */
+  text-decoration: underline; /* Underline the text to make it look like a link */
+  cursor: pointer; /* Show a pointer cursor when hovering over it */
+  margin-left: 5px; /* Add some spacing after the word "Register" */
+}
+
+.register-text:hover {
+  text-decoration: none; /* Remove the underline on hover if desired */
+}

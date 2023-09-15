@@ -1,0 +1,25 @@
+.default-theme .App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 30px;
+}
+
+.no-global-styles {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+  background: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  margin-top: 0 !important;
+}
